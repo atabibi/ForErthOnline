@@ -1,0 +1,66 @@
+/* /Pages/About.razor.rz.scp.css */
+img[b-rovntd55a9] {
+    max-width: 300px;
+    margin: auto;
+    min-width: 200px;
+}
+
+.card[b-rovntd55a9] {
+    max-width: 400px; 
+    margin: auto; 
+    text-align:center !important;
+}
+.card-title[b-rovntd55a9] {
+    font-size: 0.9rem;
+}
+
+.divider[b-rovntd55a9] {
+    max-width: 300px;
+    min-width: 200px;
+}
+/* /Shared/CalculateErth.razor.rz.scp.css */
+/* /Shared/Toast.razor.rz.scp.css */
+.toast[b-fruswmk3ot] {
+    display: none;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.toast-icon[b-fruswmk3ot] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+}
+
+.toast-body[b-fruswmk3ot] {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.toast-body p[b-fruswmk3ot] {
+    margin-bottom: 0;
+}
+
+.toast-visible[b-fruswmk3ot] {
+    display: flex;
+    flex-direction: row;
+    animation: fadein-b-fruswmk3ot 1.5s;
+}
+
+@keyframes fadein-b-fruswmk3ot {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

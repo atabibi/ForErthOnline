@@ -1,0 +1,265 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+/*@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap'); */
+
+@font-face {
+    font-family: 'myfont';
+    src: url('Fonts/tbgoogle.woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+html,
+body {
+    font-family: myfont, 'Markazi Text', serif;
+    text-align: right;
+    direction: rtl;
+}
+
+body {
+    margin-bottom: 3rem;
+}
+
+a,
+.btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    flex: 1;
+}
+
+.main .top-row {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+}
+
+.main .top-row>a,
+.main .top-row .btn-link {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+}
+
+.main .top-row a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.sidebar .top-row {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar .navbar-brand {
+    font-size: 1.1rem;
+    margin-right: 0;
+}
+
+.sidebar .oi {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.sidebar .nav-item {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar .nav-item:first-of-type {
+    padding-top: 1rem;
+}
+
+.sidebar .nav-item:last-of-type {
+    padding-bottom: 1rem;
+}
+
+.sidebar .nav-item a {
+    color: #d7d7d7;
+    border-radius: 4px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.sidebar .nav-item a.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+
+.sidebar .nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.tree-view {
+    margin-right: 1.25rem;
+}
+
+.tree-view-collapsed {
+    display: none;
+}
+
+.tree-view-icon {
+    float: right;
+    padding: 8px 0 0 0;
+    cursor: pointer;
+}
+
+.tree-view-title {
+    margin-right: 1.25rem;
+    margin-left: 0;
+    text-align: right;
+    padding: 4px;
+}
+
+.tree-view .cursor-pointer {
+    cursor: pointer;
+}
+
+.tree-view-container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.img-icon {
+    width: 32px;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #959faa;
+    border-color: #191a1b;
+}
+
+.custom-switch {
+    float: right;
+}
+
+.tree-view-title .bg-primary {
+    background-color: transparent !important;
+    border-radius: 5px;
+    /* font-size: 1.50rem;*/
+    color: black !important;
+}
+
+ul.list-group {
+    padding-right: 0;
+}
+
+li.list-group-item {
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.14),0 1px 1px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.2);
+}
+
+span.center-text
+{
+    text-align: center;
+    display: block;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.frac>span {
+    display: block;
+    padding: 0.1em;
+}
+
+.frac span.bottom {
+    border-top: thin solid black;
+}
+
+.frac span.symbol {
+    display: none;
+}
+
+
+.main .top-row:not(.auth) {
+    display: none;
+}
+
+.main .top-row.auth {
+    justify-content: space-between;
+}
+
+.main .top-row a,
+.main .top-row .btn-link {
+    margin-left: 0;
+}
