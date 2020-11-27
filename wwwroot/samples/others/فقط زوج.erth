@@ -1,0 +1,37 @@
+{
+  "Father": null,
+  "Mother": null,
+  "Hamsaran": [
+    {
+      "Father": null,
+      "Mother": null,
+      "Hamsaran": null,
+      "Children": [],
+      "Ajdad": null,
+      "BrothersAndSisters": null,
+      "Amam": null,
+      "Akhval": null,
+      "Tarakeh": 0,
+      "IdAuto": 0,
+      "FullName": "زوج",
+      "IsAlive": true,
+      "Gender": 0,
+      "AbiOmmi": -1,
+      "Tabagheh": 2,
+      "Darajeh": -1
+    }
+  ],
+  "Children": [],
+  "Ajdad": [],
+  "BrothersAndSisters": [],
+  "Amam": [],
+  "Akhval": [],
+  "Tarakeh": 150000000,
+  "IdAuto": 0,
+  "FullName": "مریم اکبری",
+  "IsAlive": false,
+  "Gender": 1,
+  "AbiOmmi": -1,
+  "Tabagheh": 0,
+  "Darajeh": -1
+}

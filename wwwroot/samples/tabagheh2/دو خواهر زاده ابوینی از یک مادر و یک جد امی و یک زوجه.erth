@@ -1,0 +1,112 @@
+{
+  "Father": null,
+  "Mother": null,
+  "Hamsaran": [
+    {
+      "Father": null,
+      "Mother": null,
+      "Hamsaran": null,
+      "Children": [],
+      "Ajdad": null,
+      "BrothersAndSisters": null,
+      "Amam": null,
+      "Akhval": null,
+      "Tarakeh": 0,
+      "IdAuto": 0,
+      "FullName": "زوجه",
+      "IsAlive": true,
+      "Gender": 1,
+      "AbiOmmi": -1,
+      "Tabagheh": 2,
+      "Darajeh": -1
+    }
+  ],
+  "Children": [],
+  "Ajdad": [
+    {
+      "Father": null,
+      "Mother": null,
+      "Hamsaran": null,
+      "Children": [],
+      "Ajdad": null,
+      "BrothersAndSisters": null,
+      "Amam": null,
+      "Akhval": null,
+      "Tarakeh": 0,
+      "IdAuto": 200,
+      "FullName": "جد امی",
+      "IsAlive": true,
+      "Gender": 0,
+      "AbiOmmi": 2,
+      "Tabagheh": 16,
+      "Darajeh": 1
+    }
+  ],
+  "BrothersAndSisters": [
+    {
+      "Father": null,
+      "Mother": null,
+      "Hamsaran": null,
+      "Children": [
+        {
+          "Father": null,
+          "Mother": null,
+          "Hamsaran": null,
+          "Children": [],
+          "Ajdad": null,
+          "BrothersAndSisters": null,
+          "Amam": null,
+          "Akhval": null,
+          "Tarakeh": 0,
+          "IdAuto": 3001,
+          "FullName": "علی",
+          "IsAlive": true,
+          "Gender": 0,
+          "AbiOmmi": 0,
+          "Tabagheh": 32,
+          "Darajeh": 2
+        },
+        {
+          "Father": null,
+          "Mother": null,
+          "Hamsaran": null,
+          "Children": [],
+          "Ajdad": null,
+          "BrothersAndSisters": null,
+          "Amam": null,
+          "Akhval": null,
+          "Tarakeh": 0,
+          "IdAuto": 3002,
+          "FullName": "مینا",
+          "IsAlive": true,
+          "Gender": 1,
+          "AbiOmmi": 0,
+          "Tabagheh": 32,
+          "Darajeh": 2
+        }
+      ],
+      "Ajdad": null,
+      "BrothersAndSisters": null,
+      "Amam": null,
+      "Akhval": null,
+      "Tarakeh": 0,
+      "IdAuto": 300,
+      "FullName": "خواهر ابوینی",
+      "IsAlive": false,
+      "Gender": 1,
+      "AbiOmmi": 0,
+      "Tabagheh": 32,
+      "Darajeh": 1
+    }
+  ],
+  "Amam": [],
+  "Akhval": [],
+  "Tarakeh": 0,
+  "IdAuto": 0,
+  "FullName": null,
+  "IsAlive": false,
+  "Gender": 0,
+  "AbiOmmi": -1,
+  "Tabagheh": 0,
+  "Darajeh": -1
+}
